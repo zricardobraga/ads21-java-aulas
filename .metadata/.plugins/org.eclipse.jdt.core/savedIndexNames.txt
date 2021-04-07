@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\squal\OneDrive\0. Análise e Desenvolvimento de Sistemas\2021\Primeiro semestre\Desenvolvimento de Software\Workspace\.metadata\.plugins\org.eclipse.jdt.core
+3553744582.index
+2872146374.index
+2404218978.index
+3638472311.index

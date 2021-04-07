@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class FaixaEtaria {
+	public static void main(String[] args) {
+	
+		int idade;
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Informe a idade: ");
+		idade = entrada.nextInt();
+	}
+
+}

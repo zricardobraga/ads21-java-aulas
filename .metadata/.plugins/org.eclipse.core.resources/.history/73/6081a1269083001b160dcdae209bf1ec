@@ -1,0 +1,28 @@
+import java.util.Scanner; // importação da biblioteca para fazer a leitura do teclado 
+
+public class AreaRetangulo {
+	public static void main(String[] args) {
+			
+		double h, b, calc;
+
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Informe a altura do retângulo: ");
+		h = entrada.nextDouble();
+		
+		System.out.print("Informe a largura do retângulo: ");
+		b = entrada.nextDouble();
+			
+		calc = h*b;
+		
+		if (calc >= 100) {
+			double conversao = calc/100;
+			System.out.println("A área do retângulo é: " + conversao + " m2");
+			
+		} else {
+			System.out.print("A área do retângulo é: " + calc + " cm");
+		}
+		
+		entrada.close();
+	}	
+}

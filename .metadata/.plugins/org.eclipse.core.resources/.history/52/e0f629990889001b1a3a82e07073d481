@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class MenuPrincipal {
+	
+	public static void main(String[] args) {
+		
+		Scanner escolha = new Scanner(System.in);
+		
+		int menu;
+		char op;
+		
+		System.out.println("MENU");
+		System.out.println();
+		
+		System.out.println("1 – Cadastrar de Cliente");
+		System.out.println("2 – Listar de Clientes");
+		
+		
+
+	}
+}

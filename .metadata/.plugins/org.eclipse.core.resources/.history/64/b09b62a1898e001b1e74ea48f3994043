@@ -1,0 +1,14 @@
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		
+		JogoEletronico jogo1 = new JogoEletronico();
+		
+		jogo1.setTitulo("Final Fantasy");
+		
+		System.out.println("Título: " + jogo1.getTitulo());
+			
+	}
+
+}

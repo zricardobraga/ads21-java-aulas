@@ -1,0 +1,11 @@
+import java.util.Date;
+
+public class JogoEletronico {
+	private String titulo;
+	private String genero;
+	private String plataforma;
+	private String dataLancamento;
+	private String estudio;
+	private double preco;
+
+}

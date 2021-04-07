@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class MenuPrincipal {
+	
+	public static void main(String[] args) {
+		
+		Scanner escolha = new Scanner(System.in);
+		
+		int menu;
+		char op = 0;
+		
+		System.out.println("MENU");
+		System.out.println();
+		
+		System.out.println("1 – Cadastrar de Cliente");
+		System.out.println("2 – Listar de Clientes");
+		System.out.println();
+		
+		
+		do {
+			
+			System.out.println("Informe a opção do MENU desejada");
+			
+			
+		} while (op == 'S');
+		
+
+	}
+}

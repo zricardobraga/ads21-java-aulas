@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class MenuPrincipal {
+	
+	public static void main(String[] args) {
+		
+		Scanner escolha = new Scanner(System.in);
+		
+		int menu;
+		char op;
+		
+		System.out.println("MENU");
+		System.out.println();
+		
+		
+	
+		
+		do {
+			
+			
+			
+			
+			
+			switch (menu) {
+				case 1:
+				
+				break;
+
+				case 2:
+				break;
+			}
+			
+			
+			
+			
+			
+		} while (op == 'S');
+		
+		
+	}
+
+}

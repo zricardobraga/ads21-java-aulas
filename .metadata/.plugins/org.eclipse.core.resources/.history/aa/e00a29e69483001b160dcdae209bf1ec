@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class ConversaoMonetaria {
+	public static void main(String[] args) {
+		
+		double dolar = 5.55, euro = 6.64, peso = 0.06, real, conversaoDolar, conversaoEuro, conversaoPeso;
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Informe o valor em Reais R$: ");
+		real = entrada.nextDouble();
+		
+		System.out.println("Real " + real);
+		
+		conversaoDolar = real/dolar;
+		System.out.println("Dólar " + conversaoDolar);
+		
+		conversaoDolar = real/euro;
+		System.out.println("Euro " + conversaoDolar);
+		
+		conversaoDolar = real/peso;
+		System.out.println("Peso " + conversaoDolar);
+	}
+
+}

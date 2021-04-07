@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class AreaRetangulo {
+	public static void main(String[] args) {
+			
+		int h;
+		int b;
+		int calc;
+			
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Informe a altura do retângulo: ");
+		h = input.nextInt();
+		
+		System.out.print("Informe a largura do retângulo: ");
+		b = input.nextInt();
+			
+		calc = h*b;
+		
+		if (calc > 100) {
+			int conversao = calc/100;
+			System.out.println("A área do retângulo é: " + conversao + " m2");
+			
+		} else {
+			System.out.print("A área do retângulo é: " + calc + "cm");
+		}
+	}	
+}

@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Fibonacci {
+	
+	int limite;
+	int anterior = 0, atual = 1, proximo;
+	
+	System.out.print("Informe a idade: ");
+	idade = entrada.nextInt();
+	
+
+}

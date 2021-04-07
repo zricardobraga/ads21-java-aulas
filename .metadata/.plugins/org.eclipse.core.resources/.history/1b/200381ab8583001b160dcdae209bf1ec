@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class area_retangulo {
+
+	public static void main(String[] args) {
+		
+		int h;
+		int b;
+		int calc;
+		
+		Scanner input = new Scanner(System.in);
+		
+		
+	}
+
+}

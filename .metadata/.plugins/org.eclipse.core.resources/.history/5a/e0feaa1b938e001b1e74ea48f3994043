@@ -1,0 +1,120 @@
+
+public class JogoEletronico {
+	private String titulo;
+	private String genero;
+	private String plataforma;
+	private String dataLancamento;
+	private String estudio;
+	private double preco;
+	
+	
+	//Getters and Setters
+	public String getTitulo() {
+		return titulo;
+	}
+	
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	
+	public String getGenero() {
+		return genero;
+	}
+	
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+	
+	public String getPlataforma() {
+		return plataforma;
+	}
+	
+	public void setPlataforma(String plataforma) {
+		this.plataforma = plataforma;
+	}
+	
+	public String getDataLancamento() {
+		return dataLancamento;
+	}
+	
+	public void setDataLancamento(String dataLancamento) {
+		this.dataLancamento = dataLancamento;
+	}
+	
+	public String getEstudio() {
+		return estudio;
+	}
+	
+	public void setEstudio(String estudio) {
+		this.estudio = estudio;
+	}
+	
+	public double getPreco() {
+		return preco;
+	}
+	
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((dataLancamento == null) ? 0 : dataLancamento.hashCode());
+		result = prime * result + ((estudio == null) ? 0 : estudio.hashCode());
+		result = prime * result + ((genero == null) ? 0 : genero.hashCode());
+		result = prime * result + ((plataforma == null) ? 0 : plataforma.hashCode());
+		long temp;
+		temp = Double.doubleToLongBits(preco);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + ((titulo == null) ? 0 : titulo.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		JogoEletronico other = (JogoEletronico) obj;
+		if (dataLancamento == null) {
+			if (other.dataLancamento != null)
+				return false;
+		} else if (!dataLancamento.equals(other.dataLancamento))
+			return false;
+		if (estudio == null) {
+			if (other.estudio != null)
+				return false;
+		} else if (!estudio.equals(other.estudio))
+			return false;
+		if (genero == null) {
+			if (other.genero != null)
+				return false;
+		} else if (!genero.equals(other.genero))
+			return false;
+		if (plataforma == null) {
+			if (other.plataforma != null)
+				return false;
+		} else if (!plataforma.equals(other.plataforma))
+			return false;
+		if (Double.doubleToLongBits(preco) != Double.doubleToLongBits(other.preco))
+			return false;
+		if (titulo == null) {
+			if (other.titulo != null)
+				return false;
+		} else if (!titulo.equals(other.titulo))
+			return false;
+		return true;
+	}
+	
+	//Equals
+	
+}
+
+
+
+
